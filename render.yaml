@@ -5,4 +5,10 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     plan: free
+    branch: main
+    repo: https://github.com/RajuSethu/ecg-flask-api
+
+
+
+
 
