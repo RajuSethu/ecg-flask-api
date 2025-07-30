@@ -1,6 +1,6 @@
 Flask==2.2.5
-tensorflow==2.15.0
-Pillow==10.0.0
+tensorflow-cpu==2.10.0   # use 2.10.0 or 2.9.1 if 2.15.0 caused crashes
 gunicorn==21.2.0
+Pillow==10.0.0
 numpy==1.24.4
 

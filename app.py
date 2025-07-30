@@ -31,3 +31,4 @@ def predict():
     except Exception as e:
         print(f"❌ Prediction error: {e}")
         return jsonify({"error": str(e)}), 500
+
